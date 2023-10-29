@@ -7,13 +7,13 @@ const Navigation = () => {
     <div className="container">
       {" "}
       {/* Apply the sticky-container class here */}
-      <button className="button">NOT PORN</button>
-      <button className="button">NOT PORN</button>
-      <button className="button">NOT PORN</button>
+      <button className="button">ORDER NOW</button>
+      <button className="button">ORDER NOW</button>
+      <button className="button">ORDER NOW</button>
       <a href="https://t.me/freebaseredpill" className="button">
         Telegram
       </a>
-      <button className="button">NOT PORN</button>
+      <button className="button">ORDER NOW</button>
     </div>
   );
 };

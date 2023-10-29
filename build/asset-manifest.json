@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7dc6efb.chunk.css",
-    "main.js": "/static/js/main.02535f72.chunk.js",
-    "main.js.map": "/static/js/main.02535f72.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.806b80bd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.806b80bd.js.map",
-    "static/css/2.0a9ec390.chunk.css": "/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.6a75a3d1.chunk.js": "/static/js/2.6a75a3d1.chunk.js",
-    "static/js/2.6a75a3d1.chunk.js.map": "/static/js/2.6a75a3d1.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.0a9ec390.chunk.css.map": "/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.b7dc6efb.chunk.css.map": "/static/css/main.b7dc6efb.chunk.css.map",
-    "static/js/2.6a75a3d1.chunk.js.LICENSE.txt": "/static/js/2.6a75a3d1.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/background.88b191a9.jpeg"
+    "main.css": "/uberEats/static/css/main.91296d2e.chunk.css",
+    "main.js": "/uberEats/static/js/main.4bf4e09c.chunk.js",
+    "main.js.map": "/uberEats/static/js/main.4bf4e09c.chunk.js.map",
+    "runtime-main.js": "/uberEats/static/js/runtime-main.c2fc4ba7.js",
+    "runtime-main.js.map": "/uberEats/static/js/runtime-main.c2fc4ba7.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/uberEats/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.3eb5b6bd.chunk.js": "/uberEats/static/js/2.3eb5b6bd.chunk.js",
+    "static/js/2.3eb5b6bd.chunk.js.map": "/uberEats/static/js/2.3eb5b6bd.chunk.js.map",
+    "index.html": "/uberEats/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/uberEats/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.91296d2e.chunk.css.map": "/uberEats/static/css/main.91296d2e.chunk.css.map",
+    "static/js/2.3eb5b6bd.chunk.js.LICENSE.txt": "/uberEats/static/js/2.3eb5b6bd.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/uberEats/static/media/driving.e0d60bd0.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.806b80bd.js",
+    "static/js/runtime-main.c2fc4ba7.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.6a75a3d1.chunk.js",
-    "static/css/main.b7dc6efb.chunk.css",
-    "static/js/main.02535f72.chunk.js"
+    "static/js/2.3eb5b6bd.chunk.js",
+    "static/css/main.91296d2e.chunk.css",
+    "static/js/main.4bf4e09c.chunk.js"
   ]
 }

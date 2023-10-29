@@ -6,21 +6,21 @@ import FallingImages from "./components/FallingImages";
 class App extends React.Component {
   render() {
     return (
-      <div className="background">
+      <div className="background custom-cursor">
         <FallingImages />
 
         <div>
           <Navigation />
         </div>
 
-        <div className="d-flex justify-content-center rotating-image">
-          {" "}
-          {/* Add the rotating-image class */}
+        {/* <div className="d-flex justify-content-center rotating-image">
+       
           <img
             src={process.env.PUBLIC_URL + "/images/circleLogo.png"}
             style={{ width: "90%", height: "auto" }}
           />
-        </div>
+        </div> */}
+
         <div className="access">
           <div className="access">
             The official page of: I’m serious but id rather try to turn $50 into
@@ -45,7 +45,7 @@ class App extends React.Component {
         <div className="square">
           <p className="textMain">
             <div id="utility" className="headerBox">
-              How to Buy
+              How to Order UBEREATS
             </div>
             <ul>
               <li> Download metamask and create an account </li>
@@ -64,7 +64,7 @@ class App extends React.Component {
         <br />
 
         <div className="image-container">
-          <div className="center-img">
+          {/* <div className="center-img">
             <img
               src={process.env.PUBLIC_URL + "/images/pepe-red-pill.gif"}
               style={{ width: "80%", height: "auto" }}
@@ -75,9 +75,9 @@ class App extends React.Component {
               src={process.env.PUBLIC_URL + "/images/pepered.jpg"}
               style={{ width: "90%", height: "auto" }}
             />
-          </div>
+          </div> */}
         </div>
-        <br></br>
+
         <div className="square">
           <p className="textMain">
             <div id="utility" className="headerBox">
@@ -86,10 +86,10 @@ class App extends React.Component {
             <ul>
               <li> DoorDash eats your fries </li>
               <li> Postmates tries your bev </li>
-              <li> seamless is for NPCs </li>
-              <li> Don't even ask about Grubhub </li>
+              <li> Seamless is for NPCs </li>
+              <li> Don't even ask about GrubHub </li>
 
-              <li>
+              {/* <li>
                 {" "}
                 donald trump{" "}
                 <audio controls autoPlay>
@@ -98,18 +98,18 @@ class App extends React.Component {
                     type="audio/mpeg"
                   />
                 </audio>
-              </li>
+              </li> */}
             </ul>
           </p>
         </div>
-        <div className="center-img">
+        {/* <div className="center-img">
           <img
             src={process.env.PUBLIC_URL + "/images/thread.png"}
             style={{ width: "100%", height: "auto" }}
           />
-        </div>
+        </div> */}
 
-        <br></br>
+        <br />
         <div className="square">
           <p className="textMain">
             <div id="utility" className="headerBox">
@@ -146,15 +146,15 @@ class App extends React.Component {
             than just a name; it's a philosophy.
           </p>
         </div>
-        <div className="center-img">
+        {/* <div className="center-img">
           <img
             src={process.env.PUBLIC_URL + "/images/erectile.gif"}
             style={{ width: "85%", height: "auto" }}
           />
         </div>
-        <br />
-        <br />
-        <div className="square">
+        <br /> */}
+
+        {/* <div className="square">
           <p className="textMain">
             <div id="utility" className="headerBox">
               Testimonials
@@ -179,35 +179,38 @@ class App extends React.Component {
               />
             </audio>
           </p>
-        </div>
-     
-    
+        </div> */}
+
         <br />
+        <div className="image-container">
         <div className="center-img">
           <img
             src={process.env.PUBLIC_URL + "/images/fires.png"}
-            style={{ width: "80%", height: "auto" }}
+            style={{ width: "50%", height: "auto" }}
           />
         </div>
-        <br />
         <div className="center-img">
           <img
             src={process.env.PUBLIC_URL + "/images/EBT.png"}
-            style={{ width: "60%", height: "auto" }}
+            style={{ width: "50%", height: "auto" }}
           />
         </div>
-        <br />
         <div className="center-img">
           <img
             src={process.env.PUBLIC_URL + "/images/hot.jpeg"}
-            style={{ width: "60%", height: "auto" }}
+            style={{ width: "50%", height: "auto" }}
           />
         </div>
-        <br />
         <div className="center-img">
           <img
-            src={process.env.PUBLIC_URL + "/images/anime.jpg"}
-            style={{ width: "60%", height: "auto" }}
+            src={process.env.PUBLIC_URL + "/images/anime.jpeg"}
+            style={{ width: "50%", height: "auto" }}
+          />
+        </div>
+        <div className="center-img">
+          <img
+            src={process.env.PUBLIC_URL + "/images/wojack.png"}
+            style={{ width: "50%", height: "auto" }}
           />
         </div>
         {/* floating ponies */}
@@ -224,6 +227,7 @@ class App extends React.Component {
               style={{ width: "100px", height: "auto", opacity: 0.8 }}
             />
           </div>
+        </div>
         </div>
       </div>
     );

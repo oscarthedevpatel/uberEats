@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'joy';
+  src: url('/src/fonts/Joyful.otf') format('opentype');
+  /* You can add more font properties if needed */
+}
+
+body {
+  cursor: url('/src/images/burgerGif.gif'), auto;
+}
+
 
 .App-logo {
   height: 50vmin;
@@ -6,23 +16,21 @@
 
 }
 
-.title {
-  /* font-family: 'title'; */
-  font-size: 80px;
-  color: black;
-}
+
 
 html, .background {
   /* background-color: grey; */
   align-items: center;
   justify-content: center;
+  /* z-index: 1; */
   height: 100%;
+  /* cursor: url('/src/images/tiny.png'), auto; */
 
 }
 
-.custom-cursor {
+/* .custom-cursor {
   cursor: url('/src/images/burger.png'), auto;
-}
+} */
 
 
 .background {
@@ -33,13 +41,14 @@ html, .background {
   background-image: url("/src/images/driving.gif");
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: url('/src/images/burgerGif.gif'), auto;
 }
 
 .headerBox {
   justify-content: center;
   text-align: center;
-  /* font-family: 'title'; */
-  font-size: 4vh;
+  font-family: 'joy';
+  font-size: 9vh;
   font-weight: bold;
   color: white;
   margin-bottom: 10px;
@@ -50,8 +59,8 @@ html, .background {
 .access {
   justify-content: center;
   text-align: center;
-  /* font-family: 'title'; */
-  font-size: 5vh;
+  font-family: 'joy';
+  font-size: 9vh;
   color: purple;
   background-color: aqua;
   margin-bottom: 10px;
@@ -76,18 +85,10 @@ a:hover {
   text-shadow: 3px 3px black;
 }
 
-/* .image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-
-
 
 .square {
   display: flex;
-  width: 85%;
+  width: 65%;
   margin: 0 auto; /* Center horizontally */
   /* margin-bottom: 2%; */
   align-items: center;
@@ -108,8 +109,10 @@ a:hover {
 
 .warning {
   font-weight: 700;
-  font-size: 4vh;
+  font-size: 9vh;
   color: yellow;
+  font-family: 'joy';
+
   animation: flashing 1s infinite;
   text-align: center;
 }
@@ -185,22 +188,53 @@ a:hover {
 .image-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center; /* Center along the x-axis (horizontally) */
-  text-align: center; /* Center the images inside their containers */
-}
-
-@media (max-width: 768px) {
-  .image-container {
-    flex-direction: column; /* Change to a column layout on mobile (max-width: 768px) */
-  }
-
-  .center-img {
-    width: 80%; /* Take up the full width on mobile */
-  }
+  justify-content: center; /* Center the grid horizontally */
 }
 
 .center-img {
-  width: 50%;
-  margin-bottom: 10px; /* Add some vertical spacing */
+  width: 400px; /* Adjust the width and subtract margin */
+  height: 500px;
+  margin: 10px; /* Add margin for spacing */
+  animation: popUp 0.5s ease-in-out; /* Add a pop-up animation */
+
+
+}
+
+/* Display images in a column on mobile */
+@media (max-width: 768px) {
+  .image-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .center-img {
+    width: 80%; /* Adjust the width as needed for mobile */
+    margin: 10px; /* Add margin for spacing */
+  }
+}
+
+.center-img:hover {
+  transform: scale(1.1); 
+}
+
+@keyframes popUp {
+  0% {
+    transform: scale(0.5); /* Start small */
+    opacity: 0; /* Initially hidden */
+  }
+  100% {
+    transform: scale(1); /* Pop up to full size */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.cursor-style {
+  background-image: url("/src/images/burger.png");
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+  transform-origin: 100% 100%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  pointer-events: none;
 }

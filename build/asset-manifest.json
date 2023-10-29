@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/uberEats/static/css/main.91296d2e.chunk.css",
-    "main.js": "/uberEats/static/js/main.4bf4e09c.chunk.js",
-    "main.js.map": "/uberEats/static/js/main.4bf4e09c.chunk.js.map",
+    "main.css": "/uberEats/static/css/main.e438164a.chunk.css",
+    "main.js": "/uberEats/static/js/main.032b8e67.chunk.js",
+    "main.js.map": "/uberEats/static/js/main.032b8e67.chunk.js.map",
     "runtime-main.js": "/uberEats/static/js/runtime-main.c2fc4ba7.js",
     "runtime-main.js.map": "/uberEats/static/js/runtime-main.c2fc4ba7.js.map",
     "static/css/2.0a9ec390.chunk.css": "/uberEats/static/css/2.0a9ec390.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.3eb5b6bd.chunk.js.map": "/uberEats/static/js/2.3eb5b6bd.chunk.js.map",
     "index.html": "/uberEats/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/uberEats/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.91296d2e.chunk.css.map": "/uberEats/static/css/main.91296d2e.chunk.css.map",
+    "static/css/main.e438164a.chunk.css.map": "/uberEats/static/css/main.e438164a.chunk.css.map",
     "static/js/2.3eb5b6bd.chunk.js.LICENSE.txt": "/uberEats/static/js/2.3eb5b6bd.chunk.js.LICENSE.txt",
     "static/media/App.css": "/uberEats/static/media/driving.e0d60bd0.gif"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.c2fc4ba7.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.3eb5b6bd.chunk.js",
-    "static/css/main.91296d2e.chunk.css",
-    "static/js/main.4bf4e09c.chunk.js"
+    "static/css/main.e438164a.chunk.css",
+    "static/js/main.032b8e67.chunk.js"
   ]
 }

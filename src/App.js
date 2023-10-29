@@ -1,12 +1,14 @@
 import "./App.css";
-import React from "react";
+import React, { Component, createRef } from "react";
 import Navigation from "./components/Navbar/MyNavbar";
 import FallingImages from "./components/FallingImages";
 
-class App extends React.Component {
+class App extends Component {
+
   render() {
     return (
-      <div className="background custom-cursor">
+      <div className="background">
+
         <FallingImages />
 
         <div>
@@ -51,7 +53,7 @@ class App extends React.Component {
               <li> Download metamask and create an account </li>
               <li>
                 {" "}
-                Connect metamask to uniswap or dexView and aquire some @Coinbase{" "}
+                Connect metamask to uniswap or dexView and aquire some @UBEREATS{" "}
               </li>
               <li>
                 {" "}
@@ -183,51 +185,57 @@ class App extends React.Component {
 
         <br />
         <div className="image-container">
-        <div className="center-img">
-          <img
-            src={process.env.PUBLIC_URL + "/images/fires.png"}
-            style={{ width: "50%", height: "auto" }}
-          />
-        </div>
-        <div className="center-img">
-          <img
-            src={process.env.PUBLIC_URL + "/images/EBT.png"}
-            style={{ width: "50%", height: "auto" }}
-          />
-        </div>
-        <div className="center-img">
-          <img
-            src={process.env.PUBLIC_URL + "/images/hot.jpeg"}
-            style={{ width: "50%", height: "auto" }}
-          />
-        </div>
-        <div className="center-img">
-          <img
-            src={process.env.PUBLIC_URL + "/images/anime.jpeg"}
-            style={{ width: "50%", height: "auto" }}
-          />
-        </div>
-        <div className="center-img">
-          <img
-            src={process.env.PUBLIC_URL + "/images/wojack.png"}
-            style={{ width: "50%", height: "auto" }}
-          />
-        </div>
-        {/* floating ponies */}
-        <div className="parent">
-          <div className="floating-img top-left">
+          <div>
             <img
-              src={process.env.PUBLIC_URL + "/images/pony.gif"}
-              style={{ width: "100px", height: "auto", opacity: 0.8 }}
+              className="center-img"
+              src={process.env.PUBLIC_URL + "/images/fires.png"}
             />
           </div>
-          <div className="floating-img top-right">
+          <div>
             <img
-              src={process.env.PUBLIC_URL + "/images/pony.gif"}
-              style={{ width: "100px", height: "auto", opacity: 0.8 }}
+              className="center-img"
+              src={process.env.PUBLIC_URL + "/images/EBT.png"}
             />
           </div>
-        </div>
+          <div>
+            <img
+              className="center-img"
+              src={process.env.PUBLIC_URL + "/images/hot.jpeg"}
+            />
+          </div>
+          <div>
+            <img
+              className="center-img"
+              src={process.env.PUBLIC_URL + "/images/anime.jpeg"}
+            />
+          </div>
+          <div>
+            <img
+              className="center-img"
+              src={process.env.PUBLIC_URL + "/images/wojack.png"}
+            />
+          </div>
+          <div>
+            <img
+              className="center-img"
+              src={process.env.PUBLIC_URL + "/images/cryptoM.png"}
+            />
+          </div>
+          {/* floating ponies */}
+          <div className="parent">
+            <div className="floating-img top-left">
+              <img
+                src={process.env.PUBLIC_URL + "/images/pony.gif"}
+                style={{ width: "100px", height: "auto", opacity: 0.8 }}
+              />
+            </div>
+            <div className="floating-img top-right">
+              <img
+                src={process.env.PUBLIC_URL + "/images/pony.gif"}
+                style={{ width: "100px", height: "auto", opacity: 0.8 }}
+              />
+            </div>
+          </div>
         </div>
       </div>
     );

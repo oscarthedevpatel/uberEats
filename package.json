@@ -2,7 +2,7 @@
   "name": "übé® éå†5",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://7figs.biz",
+  "homepage": "https://oscarthedevpatel.github.io/uberEats",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.11.10",

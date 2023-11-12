@@ -3,6 +3,11 @@
     src: url('../../fonts/CapitalisTypOasis.ttf') format('woff2'),
       
 } */
+@font-face {
+  font-family: 'joy';
+  src: url('/src/fonts/Joyful.otf') format('opentype');
+  /* You can add more font properties if needed */
+}
 
 
 .container {
@@ -19,7 +24,7 @@
 .button {
   border: 2px solid blueviolet;
   background-color: white;
-  color: blue;
+  color: green;
   /* font-family: 'main-text'; */
   padding: 1vw 2vw;
   min-width: 13vw;
@@ -27,7 +32,9 @@
   /* margin: 1vw; */
   flex-shrink: 1;
   flex-basis: auto;
-  font-size: 12px;
+  font-size: 35px;
+  font-family: 'joy';
+
 }
 
 .divider {

@@ -7,13 +7,18 @@ const Navigation = () => {
     <div className="container">
       {" "}
       {/* Apply the sticky-container class here */}
-      <button className="button">ORDER NOW</button>
-      <button className="button">ORDER NOW</button>
-      <button className="button">ORDER NOW</button>
-      <a href="https://t.me/freebaseredpill" className="button">
+      {/* <a href="https://www.uber.com/us/en/deliver/" className="button">
+        ORDER NOW
+      </a> */}
+      <a href="https://t.me/UbereatsErc" className="button">
         Telegram
       </a>
-      <button className="button">ORDER NOW</button>
+      <a href="https://twitter.com/ubereatserc" className="button">
+        Twitter
+      </a>
+      <a href="#" className="button">
+        Chart
+      </a>
     </div>
   );
 };

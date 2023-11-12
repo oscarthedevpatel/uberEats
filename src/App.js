@@ -4,11 +4,9 @@ import Navigation from "./components/Navbar/MyNavbar";
 import FallingImages from "./components/FallingImages";
 
 class App extends Component {
-
   render() {
     return (
       <div className="background">
-
         <FallingImages />
 
         <div>
@@ -223,18 +221,32 @@ class App extends Component {
           </div>
           {/* floating ponies */}
           <div className="parent">
-            <div className="floating-img top-left">
-              <img
-                src={process.env.PUBLIC_URL + "/images/pony.gif"}
-                style={{ width: "100px", height: "auto", opacity: 0.8 }}
-              />
-            </div>
-            <div className="floating-img top-right">
-              <img
-                src={process.env.PUBLIC_URL + "/images/pony.gif"}
-                style={{ width: "100px", height: "auto", opacity: 0.8 }}
-              />
-            </div>
+            <a
+              href="https://www.uber.com/us/en/deliver/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="floating-img top-left">
+                <img
+                  src={process.env.PUBLIC_URL + "/images/pony.gif"}
+                  style={{ width: "150px", height: "auto", opacity: 0.8 }}
+                />
+              </div>
+            </a>
+
+            <a
+              href="https://www.uber.com/us/en/deliver/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="floating-img top-right">
+                <img
+                  src={process.env.PUBLIC_URL + "/images/pony.gif"}
+                  style={{ width: "150px", height: "auto", opacity: 0.8 }}
+                  alt="Pony"
+                />
+              </div>
+            </a>
           </div>
         </div>
       </div>
